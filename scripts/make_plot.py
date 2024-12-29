@@ -1,6 +1,11 @@
 
-import matplotlib.pyplot as plt
 import src.data_generator as data_generator
+import importlib
+importlib.reload(data_generator)
+import matplotlib.pyplot as plt
+
+
+
 
 plot_dir = "../docs/source/plots/"  # change here if path is not right
 
