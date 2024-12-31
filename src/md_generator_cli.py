@@ -1,7 +1,7 @@
 from mdutils.mdutils import MdUtils
 
 #%%
-def doc_quick_plots(file_name, title, plot_dir,):
+def doc_quick_plots(file_name, title, plot_dir, var, mon):
     """
     function to generate the markdown file
     **Parameter**
@@ -18,19 +18,19 @@ def doc_quick_plots(file_name, title, plot_dir,):
                      "generator a markdown file with python scripts"
     )
 
-    md_file.new_header(level = 2, title = 'Red Line plot')
+    md_file.new_header(level = 2, title = var + "_month" + mon + "_climitalogy")
     md_file.new_line(
         md_file.new_inline_image(
             text="red",
-            path=plot_dir + "red_line.png",
+            path=plot_dir  + var + "_" + mon +  "_cli.png",
         )
     )
 
-    md_file.new_header(level = 2, title = 'Green line plot')
+    md_file.new_header(level = 2, title = var + "_month" + mon + "_Standard Deviation")
     md_file.new_line(
         md_file.new_inline_image(
             text="green",
-            path=plot_dir + "green_line.png",
+            path=plot_dir  + var + "_" + mon +  "_std.png",
         )
     )
 

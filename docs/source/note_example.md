@@ -10,7 +10,7 @@
 Here is a simple example show how togenerator a markdown file with python scripts
 ## Red Line plot
   
-![red](./plots/red_line.png)
+![Red Line Plot](./plots/red_line.png)
 ## Green line plot
   
-![green](./plots/green_line.png)
+![green Line Plot](./plots/green_line.png)

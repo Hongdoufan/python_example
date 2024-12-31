@@ -7,7 +7,9 @@ mypackage.egg-info/dependency_links.txt
 mypackage.egg-info/requires.txt
 mypackage.egg-info/top_level.txt
 src/__init__.py
+src/cli_std.py
 src/data_generator.py
 src/md_generator.py
 tests/__init__.py
+tests/test_cli.py
 tests/test_example.py

@@ -1,5 +1,5 @@
 import src.data_generator as data_generator
-import src.md_generator as md_generator
+import src.md_generator_cli as md_generator_cli
 
 file_name = "../docs/source/note_example.md"  # change here if the path not right
 plot_dir = "./plots/"             # change the dir if the path not right
