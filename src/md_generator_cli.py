@@ -14,9 +14,7 @@ def doc_quick_plots(file_name, title, plot_dir, var, mon):
 
     # overview
     md_file.new_header(level=2, title="Introduction")
-    md_file.new_paragraph("Here is a simple example show how to"
-                     "generator a markdown file with python scripts"
-    )
+    md_file.new_paragraph("Climatology and Standard Deviation of " + var + " in month " + mon + " are shown below.")
 
     md_file.new_header(level = 2, title = var + "_month" + mon + "_climitalogy")
     md_file.new_line(
